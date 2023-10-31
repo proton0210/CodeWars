@@ -14,6 +14,7 @@ function nbMonths(
     if (months % 2 === 0) {
       percentLossByMonth += 0.5;
     }
+    
 
     currentPriceOld *= 1 - percentLossByMonth / 100;
     currentPriceNew *= 1 - percentLossByMonth / 100;
