@@ -1,7 +1,7 @@
 export function beeramid(bonus: number, price: number): number {
   const noOfBeerCans = Math.floor(bonus / price);
   let totalCans = 0;
-//   console.log(noOfBeerCans);
+  //   console.log(noOfBeerCans);
   let level = 0;
 
   while (true) {
@@ -14,7 +14,7 @@ export function beeramid(bonus: number, price: number): number {
     }
     // console.log({ num }, { level });
   }
-//   console.log({ level });
+  //   console.log({ level });
   return level;
 }
 
